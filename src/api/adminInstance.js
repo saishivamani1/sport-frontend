@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from '../utils/auth';
 
 const adminInstance = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL || 'http://localhost:8080'}/admin`,
+  baseURL: `${import.meta.env.VITE_API_URL || 'https://sport-backend-1-1k8d.onrender.com'}/admin`,
   headers: { 'Content-Type': 'application/json' },
 });
 
